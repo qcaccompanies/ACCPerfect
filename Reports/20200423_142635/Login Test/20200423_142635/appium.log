@@ -1,0 +1,846 @@
+[35m[Appium][39m Welcome to Appium v1.12.1
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 62257
+[35m[Appium][39m   loglevel: info
+[35m[Appium][39m   chromeDriverPort: 62259
+[35m[Appium][39m   tmpDir: C:\Users\ASUS\AppData\Local\Temp\\Katalon\Appium\Temp1587626872370
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:62257
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m8 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"C:\\Users\\ASUS\\Desktop\\ACC Perfect 1.6.3 Dev.apk","noReset":true,"deviceName":"emulator-5554 (AOSP on IA Emulator - Android 9)","fullReset":false,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"9","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"emulator-5554","systemPort":62256},"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\ASUS\\Desktop\\ACC Perfect 1.6.3 Dev.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"emulator-5554 (AOSP on IA Emulator - Android 9)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:platformVersion":"9","appium:systemPort":62256,"appium:udid":"emulator-5554"}]}}[39m
+[35m[BaseDriver][39m The capabilities ["platform"] are not standard capabilities and should have an extension prefix
+[35m[Appium][39m Appium v1.12.1 creating new AndroidUiautomator2Driver (v1.33.0) session
+[35m[Appium][39m Capabilities:
+[35m[Appium][39m   platform: ANDROID
+[35m[Appium][39m   platformName: android
+[35m[Appium][39m   app: C:\Users\ASUS\Desktop\ACC Perfect 1.6.3 Dev.apk
+[35m[Appium][39m   autoGrantPermissions: true
+[35m[Appium][39m   automationName: uiautomator2
+[35m[Appium][39m   deviceName: emulator-5554 (AOSP on IA Emulator - Android 9)
+[35m[Appium][39m   fullReset: false
+[35m[Appium][39m   newCommandTimeout: 1800
+[35m[Appium][39m   noReset: true
+[35m[Appium][39m   platformVersion: 9
+[35m[Appium][39m   systemPort: 62256
+[35m[Appium][39m   udid: emulator-5554
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by appium: platform.
+[35m[BaseDriver][39m Session created with session id: 5bc19f67-9cd8-4643-b04e-8bbdbbd79f31
+[35m[BaseDriver][39m Using local app 'C:\Users\ASUS\Desktop\ACC Perfect 1.6.3 Dev.apk'
+[35m[ADB][39m Checking whether adb is present
+[35m[ADB][39m Found 1 'build-tools' folders under 'C:\Users\ASUS\.katalon\tools\android_sdk' (newest first):
+[35m[ADB][39m     C:/Users/ASUS/.katalon/tools/android_sdk/build-tools/29.0.2
+[35m[ADB][39m Using adb.exe from C:\Users\ASUS\.katalon\tools\android_sdk\platform-tools\adb.exe
+[35m[AndroidDriver][39m Retrieving device list
+[35m[AndroidDriver][39m Using device: emulator-5554
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[ADB][39m Using the alternative activity name detection method because of: Could not find apkanalyzer.bat in C:\Users\ASUS\.katalon\tools\android_sdk\platform-tools\apkanalyzer.bat,C:\Users\ASUS\.katalon\tools\android_sdk\emulator\apkanalyzer.bat,C:\Users\ASUS\.katalon\tools\android_sdk\tools\apkanalyzer.bat,C:\Users\ASUS\.katalon\tools\android_sdk\tools\bin\apkanalyzer.bat,C:\Users\ASUS\.katalon\tools\android_sdk\build-tools\29.0.2\apkanalyzer.bat. Do you have the Android SDK installed at 'C:\Users\ASUS\.katalon\tools\android_sdk'?
+[35m[ADB][39m Checking whether aapt is present
+[35m[ADB][39m Using aapt.exe from C:\Users\ASUS\.katalon\tools\android_sdk\build-tools\29.0.2\aapt.exe
+[35m[ADB][39m Extracting package and launch activity from manifest
+[35m[ADB][39m Package name: 'id.deltaapp.acc.perfectdev'
+[35m[ADB][39m Main activity name: 'id.deltaapp.acc.perfectdev.ACCPerfectDev'
+[35m[ADB][39m Using apksigner.bat from C:\Users\ASUS\.katalon\tools\android_sdk\build-tools\29.0.2\apksigner.bat
+[35m[UiAutomator2][39m Server packages are not going to be (re)installed
+[35m[UiAutomator2][39m Starting UIAutomator2 server 3.4.0
+[35m[UiAutomator2][39m Using UIAutomator2 server from 'C:\Users\ASUS\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v3.4.0.apk' and test from 'C:\Users\ASUS\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
+[35m[WD Proxy][39m Got an unexpected response: {"code":"ECONNRESET"}
+[35m[WD Proxy][39m Got an unexpected response: {"code":"ECONNRESET"}
+[35m[WD Proxy][39m Got an unexpected response: {"code":"ECONNRESET"}
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[35m[UiAutomator2][39m UiAutomator2 did not start the activity we were waiting for, 'id.deltaapp.acc.perfectdev/id.deltaapp.acc.perfectdev.ACCPerfectDev'. Starting it ourselves
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 5bc19f67-9cd8-4643-b04e-8bbdbbd79f31 added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m22624 ms - 1248[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31 [39m[32m200[39m [90m106 ms - 1180[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31 [39m[32m200[39m [90m27 ms - 1180[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m2 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/timeouts [39m[32m200[39m [90m7 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/timeouts [39m[32m200[39m [90m5 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/window/rect [39m[32m200[39m [90m51 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m85 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m960 ms - 267[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/element/b9e390a3-2d1d-4b40-bcf7-a77f183f3180/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (5bc19f67)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId d2e86f6c-692a-450d-b159-2cdd66f79847 with 5bc19f67-9cd8-4643-b04e-8bbdbbd79f31
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/element/b9e390a3-2d1d-4b40-bcf7-a77f183f3180/location [39m[32m200[39m [90m148 ms - 89[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/element/b9e390a3-2d1d-4b40-bcf7-a77f183f3180/clear[39m
+[35m[HTTP][39m [90m{"id":"b9e390a3-2d1d-4b40-bcf7-a77f183f3180"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/element/b9e390a3-2d1d-4b40-bcf7-a77f183f3180/clear [39m[32m200[39m [90m138 ms - 27[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/element/b9e390a3-2d1d-4b40-bcf7-a77f183f3180/value[39m
+[35m[HTTP][39m [90m{"id":"b9e390a3-2d1d-4b40-bcf7-a77f183f3180","text":"02112","value":["0","2","1","1","2"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/element/b9e390a3-2d1d-4b40-bcf7-a77f183f3180/value [39m[32m200[39m [90m301 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/timeouts [39m[32m200[39m [90m6 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/window/rect [39m[32m200[39m [90m38 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m475 ms - 267[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/element/50f447b6-eff1-4d4e-b6d8-183b7b40e4e7/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (5bc19f67)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId d2e86f6c-692a-450d-b159-2cdd66f79847 with 5bc19f67-9cd8-4643-b04e-8bbdbbd79f31
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/element/50f447b6-eff1-4d4e-b6d8-183b7b40e4e7/location [39m[32m200[39m [90m113 ms - 89[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/timeouts [39m[32m200[39m [90m4 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/element/50f447b6-eff1-4d4e-b6d8-183b7b40e4e7/clear[39m
+[35m[HTTP][39m [90m{"id":"50f447b6-eff1-4d4e-b6d8-183b7b40e4e7"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/element/50f447b6-eff1-4d4e-b6d8-183b7b40e4e7/clear [39m[32m200[39m [90m131 ms - 27[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/element/50f447b6-eff1-4d4e-b6d8-183b7b40e4e7/value[39m
+[35m[HTTP][39m [90m{"id":"50f447b6-eff1-4d4e-b6d8-183b7b40e4e7","text":"Password","value":["P","a","s","s","w","o","r","d"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/element/50f447b6-eff1-4d4e-b6d8-183b7b40e4e7/value [39m[32m200[39m [90m784 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/timeouts [39m[32m200[39m [90m8 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/window/rect [39m[32m200[39m [90m32 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.Button\").text(\"SIGN IN\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m276 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/element/f7b4c297-85c0-4b46-a740-78dc79c60703/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (5bc19f67)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId d2e86f6c-692a-450d-b159-2cdd66f79847 with 5bc19f67-9cd8-4643-b04e-8bbdbbd79f31
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/element/f7b4c297-85c0-4b46-a740-78dc79c60703/location [39m[32m200[39m [90m109 ms - 90[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/timeouts [39m[32m200[39m [90m5 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"f7b4c297-85c0-4b46-a740-78dc79c60703"}},{"action":"release","options":{}}]}[39m
+[35m[UiAutomator2][39m calling get location: f7b4c297-85c0-4b46-a740-78dc79c60703
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/touch/perform [39m[32m200[39m [90m1638 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/timeouts [39m[32m200[39m [90m4 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/window/rect [39m[32m200[39m [90m76 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m206 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m178 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m180 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m140 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m157 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m182 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m168 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m159 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m174 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m132 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m171 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m177 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m174 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m145 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m166 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m130 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m136 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m175 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m181 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m224 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m162 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m154 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m179 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m163 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m126 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m257 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m134 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m130 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m227 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m144 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m168 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m288 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m120 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m181 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m189 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m130 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m155 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m174 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m132 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m181 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m154 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m129 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m176 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m150 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m140 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m146 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m152 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m132 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m173 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m171 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m122 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m186 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m158 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m131 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m154 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m203 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m133 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m158 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m760 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m140 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m220 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m186 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m152 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m225 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m191 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m339 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m177 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m218 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m187 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m182 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m182 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m205 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m202 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m198 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m289 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m280 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m202 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m156 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m124 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m254 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m159 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m229 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m188 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m137 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m157 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m156 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m168 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m206 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m171 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m235 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m179 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m149 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m313 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m427 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m302 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m270 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m206 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m271 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m179 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m194 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m171 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m136 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m187 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m157 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m167 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m200 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m122 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m119 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m202 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m185 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m173 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m171 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m135 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m132 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m198 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m194 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m204 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m194 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m165 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m192 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m182 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m213 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m161 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m260 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m172 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m159 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m212 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m177 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m184 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m183 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m144 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m261 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m194 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m197 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m210 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m143 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m144 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m200 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m144 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m185 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m148 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m152 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m168 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m157 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m161 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m177 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m166 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m193 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m175 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m183 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m179 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m174 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m175 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m181 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m175 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.view.View\").text(\"NPK dan/atau Password yang dimasukkan salah\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/elements [39m[32m200[39m [90m208 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/timeouts [39m[32m200[39m [90m4 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/context [39m[32m200[39m [90m4 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/contexts [39m[32m200[39m [90m133 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/context [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/screenshot [39m[32m200[39m [90m1016 ms - 172828[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/context [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/context [39m[32m200[39m [90m4 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/contexts [39m[32m200[39m [90m86 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/context [39m[32m200[39m [90m4 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/screenshot [39m[32m200[39m [90m787 ms - 172734[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31/context [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[Appium][39m Removing session 5bc19f67-9cd8-4643-b04e-8bbdbbd79f31 from our master session list
+[35m[UiAutomator2][39m Restoring hidden api policy to the device default configuration
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/5bc19f67-9cd8-4643-b04e-8bbdbbd79f31 [39m[32m200[39m [90m2944 ms - 14[39m
+[35m[HTTP][39m [90m[39m

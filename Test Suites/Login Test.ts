@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Login Test</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>94557913-f4d4-4831-bb8e-606022107412</testSuiteGuid>
+   <testCaseLink>
+      <guid>87b0cecc-9705-48cf-90d4-7ec8d4444c9e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>a8498608-e0e8-495c-bfbe-22ec316aa71b</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value>1-2</value>
+         </iterationEntity>
+         <testDataId>Data Files/login</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>a8498608-e0e8-495c-bfbe-22ec316aa71b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>npk</value>
+         <variableId>da22a132-b8fe-44b5-9ae0-4f07b99bc727</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a8498608-e0e8-495c-bfbe-22ec316aa71b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>e075e5bd-6190-411f-92a8-7091844ea2ce</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a8498608-e0e8-495c-bfbe-22ec316aa71b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expected</value>
+         <variableId>0b019d54-9cf5-4420-b414-d2d5868dc820</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a8498608-e0e8-495c-bfbe-22ec316aa71b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>fail</value>
+         <variableId>c3406910-35c5-4518-9a6c-34ad36056a75</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

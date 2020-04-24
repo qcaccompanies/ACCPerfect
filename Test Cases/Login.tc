@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a798acd3-29a7-4f9b-ac75-43c48b2c7242</testCaseGuid>
+   <variable>
+      <defaultValue>'02110'</defaultValue>
+      <description></description>
+      <id>da22a132-b8fe-44b5-9ae0-4f07b99bc727</id>
+      <masked>false</masked>
+      <name>npk</name>
+   </variable>
+   <variable>
+      <defaultValue>'Password1'</defaultValue>
+      <description></description>
+      <id>e075e5bd-6190-411f-92a8-7091844ea2ce</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'fail'</defaultValue>
+      <description></description>
+      <id>0b019d54-9cf5-4420-b414-d2d5868dc820</id>
+      <masked>false</masked>
+      <name>expected</name>
+   </variable>
+   <variable>
+      <defaultValue>'input salah'</defaultValue>
+      <description></description>
+      <id>c3406910-35c5-4518-9a6c-34ad36056a75</id>
+      <masked>false</masked>
+      <name>fail</name>
+   </variable>
+</TestCaseEntity>

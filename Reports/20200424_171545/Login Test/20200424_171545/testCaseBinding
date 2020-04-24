@@ -1,0 +1,2 @@
+{"testCaseName":"Test Cases/Login - Iteration 1","testCaseId":"Test Cases/Login","bindedValues":{"fail":"\u0027input kosong\u0027","password":"\u0027Password1\u0027","expected":"\u0027fail\u0027","npk":"\u0027\u0027"}}
+{"testCaseName":"Test Cases/Login - Iteration 2","testCaseId":"Test Cases/Login","bindedValues":{"fail":"\u0027input salah\u0027","password":"\u0027Password\u0027","expected":"\u0027fail\u0027","npk":"\u002702112\u0027"}}

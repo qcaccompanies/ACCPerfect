@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login Test" time="72.157" tests="1" failures="0" errors="0">
+   <testsuite name="Login Test" tests="1" failures="0" errors="0" time="72.157" timestamp="2020-04-23 14:08:05" hostname="ASUS - LAPTOP-D0TPACJ1" id="Test Suites/Login Test">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (AOSP on IA Emulator - Android 9)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ASUS\\git\\ACCPerfect\\Reports\\20200423_140757\\Login Test\\20200423_140757"/>
+         <property name="logFiles" value="C:\\Users\\ASUS\\git\\ACCPerfect\\Reports\\20200423_140757\\Login Test\\20200423_140757\\appium.log, C:\\Users\\ASUS\\git\\ACCPerfect\\Reports\\20200423_140757\\Login Test\\20200423_140757\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ASUS - LAPTOP-D0TPACJ1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{\&quot;status\&quot;:0,\&quot;value\&quot;:{\&quot;build\&quot;:{\&quot;version\&quot;:\&quot;1.12.1\&quot;}},\&quot;sessionId\&quot;:null}"/>
+         <property name="katalonVersion" value="7.0.10.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.12.1"/>
+         <property name="deviceModel" value="AOSP on IA Emulator"/>
+         <property name="hostAddress" value="192.168.100.227"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (AOSP on IA Emulator - Android 9)"/>
+         <property name="deviceOSVersion" value="9"/>
+      </properties>
+      <testcase name="Test Cases/Login" time="70.604" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2020-04-23 14:08:06 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2020-04-23 14:08:08 - [TEST_STEP][PASSED] - startApplication("C:\Users\ASUS\Desktop\ACC Perfect 1.6.3 Dev.apk", false): Started app at: 'C:\Users\ASUS\Desktop\ACC Perfect 1.6.3 Dev.apk'
+
+2020-04-23 14:08:17 - [MESSAGE][INFO] - Appium server started on port 57,130
+
+2020-04-23 14:08:48 - [MESSAGE][PASSED] - Started app at: 'C:\Users\ASUS\Desktop\ACC Perfect 1.6.3 Dev.apk'
+
+2020-04-23 14:08:48 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2020-04-23 14:08:53 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-04-23 14:08:53 - [TEST_STEP][PASSED] - setText(findTestObject("Input Username"), "", 0): Text '' has been set to element 'Object Repository/Input Username'
+
+2020-04-23 14:08:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-04-23 14:09:03 - [MESSAGE][PASSED] - Text '' has been set to element 'Object Repository/Input Username'
+
+2020-04-23 14:09:03 - [TEST_STEP][PASSED] - setText(findTestObject("Input Password"), "", 0): Text '' has been set to element 'Object Repository/Input Password'
+
+2020-04-23 14:09:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-04-23 14:09:04 - [MESSAGE][PASSED] - Text '' has been set to element 'Object Repository/Input Password'
+
+2020-04-23 14:09:04 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2020-04-23 14:09:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-04-23 14:09:07 - [TEST_STEP][PASSED] - tap(findTestObject("Btn Sign In"), 0): Tapped on element 'Object Repository/Btn Sign In'
+
+2020-04-23 14:09:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-04-23 14:09:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Btn Sign In'
+
+2020-04-23 14:09:09 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2020-04-23 14:09:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-04-23 14:09:12 - [TEST_STEP][PASSED] - if (expected == "pass"): null
+
+2020-04-23 14:09:12 - [TEST_STEP][PASSED] - delay(0, STOP_ON_FAILURE): Delayed 0 second(s)
+
+2020-04-23 14:09:12 - [MESSAGE][PASSED] - Delayed 0 second(s)
+
+2020-04-23 14:09:12 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2020-04-23 14:09:17 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-04-23 14:08:05 - [TEST_SUITE][PASSED] - Login Test: Test Cases/Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
